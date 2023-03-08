@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pptaxi.GlavnayaController">
+  <content>
+    <AnchorPane fx:id="spGlav" minHeight="0.0" minWidth="0.0" prefHeight="1659.0" prefWidth="690.0">
+         <children>
+            <Pane layoutX="408.0" layoutY="14.0" prefHeight="208.0" prefWidth="268.0" style="-fx-border-color: black; -fx-border-radius: 10; -fx-background-radius: 10;">
+               <children>
+                  <Label alignment="CENTER" layoutX="28.0" layoutY="14.0" prefHeight="86.0" prefWidth="213.0" text="Подайте заявку сейчас и выходите на линию уже сегодня!" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnOtpr" layoutX="58.0" layoutY="130.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" style="-fx-background-color: black;" text="Отправить заявку" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Label alignment="TOP_LEFT" layoutX="33.0" layoutY="33.0" prefHeight="86.0" prefWidth="302.0" text="Пожалуй лучший Таксопарк! Наши водители зарабатывают от 10 000 рублей в день." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="144.0" prefHeight="33.0" prefWidth="290.0" text="— Подключим всего за 10 минут!">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="177.0" prefHeight="33.0" prefWidth="290.0" text="— Низкая комиссия таксопарка!">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="210.0" prefHeight="33.0" prefWidth="290.0" text="— Ежедневные выплаты!">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="93.0" layoutY="328.0" text="1. Низкая комиссия!">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="74.0" fitWidth="64.0" layoutX="29.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/im1.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" layoutX="93.0" layoutY="348.0" prefHeight="65.0" prefWidth="175.0" text="Самая низкая комиссия по сравнению с другими таксопарками" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="408.0" layoutY="330.0" text="2. Моментальные выплаты">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="74.0" fitWidth="64.0" layoutX="335.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/im2.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" layoutX="408.0" layoutY="353.0" prefHeight="43.0" prefWidth="200.0" text="Любые карты или QIWI-кошельки, без задержек" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="93.0" layoutY="437.0" text="3. Свободный график">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="74.0" fitWidth="64.0" layoutX="29.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/im3.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" layoutX="93.0" layoutY="460.0" prefHeight="64.0" prefWidth="156.0" text="Совмещай с учебой или работой, здесь нет графика!" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="408.0" layoutY="439.0" text="4. Реферальная программа">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="74.0" fitWidth="64.0" layoutX="335.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/im4.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" layoutX="408.0" layoutY="460.0" prefHeight="47.0" prefWidth="209.0" text="Приглашайте друзей на работу и зарабатывайте с его поездок" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="93.0" layoutY="550.0" text="5. Гарантированые выплаты">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="74.0" fitWidth="64.0" layoutX="29.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/im5.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" layoutX="93.0" layoutY="570.0" prefHeight="46.0" prefWidth="206.0" text="От 190 руб за выполненную поездку + ежедневные бонусы" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="408.0" layoutY="552.0" text="6. Безопасно">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="408.0" layoutY="570.0" prefHeight="44.0" prefWidth="191.0" text="Тревожная кнопка на все случаи жизни" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="74.0" fitWidth="64.0" layoutX="335.0" layoutY="543.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/im6.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="93.0" layoutY="641.0" text="7. Повышенные тарифы">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="93.0" layoutY="661.0" text="Для мотивации выхода на линию">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="74.0" fitWidth="64.0" layoutX="29.0" layoutY="641.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/im7.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="408.0" layoutY="643.0" text="8. Круглосуточная поддержка">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="74.0" fitWidth="64.0" layoutX="335.0" layoutY="644.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/im8.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" layoutX="408.0" layoutY="663.0" prefHeight="65.0" prefWidth="229.0" text="Представительство в вашем городе с операторами на связи 24/7" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="271.0" layoutY="749.0" text="9. Быстро">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="271.0" layoutY="769.0" prefHeight="68.0" prefWidth="177.0" text="Бесплатно подключим вас в течение одного часа всего по двум документам" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="74.0" fitWidth="64.0" layoutX="198.0" layoutY="749.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/im9.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="196.0" layoutY="874.0" text="УСЛОВИЯ ДЛЯ ВОДИТЕЛЕЙ">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Pane layoutX="14.0" layoutY="934.0" prefHeight="318.0" prefWidth="309.0" style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: black;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Водитель:">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="41.0" text="— Стаж от 3 лет;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="68.0" text="— Возраст от 21 года;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="15.0" layoutY="95.0" text="— Устройство на базе Андроид;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="15.0" layoutY="122.0" prefHeight="60.0" prefWidth="276.0" text="— Устройство на базе iOS не ниже 12.1;" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="15.0" layoutY="182.0" text="— Паспорт или ВНЖ / РВП.">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="370.0" layoutY="934.0" prefHeight="318.0" prefWidth="309.0" style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: black;">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Автомобиль:">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="41.0" text="— Минимум 4 двери;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="68.0" prefHeight="60.0" prefWidth="283.0" text="— Ремни безопасности на каждом сиденье;" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="128.0" prefHeight="87.0" prefWidth="282.0" text="— Окончательное решение к транспортным средствам остается за сервисом." wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label layoutX="208.0" layoutY="1314.0" text="КАК НАЧАТЬ РАБОТУ:">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="103.0" fitWidth="118.0" layoutX="113.0" layoutY="1372.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/imK1.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="138.0" layoutY="1475.0" text="Заявка">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="103.0" layoutY="1502.0" prefHeight="78.0" prefWidth="132.0" text="Оставить заявку на сайте или позвонить" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="103.0" fitWidth="118.0" layoutX="282.0" layoutY="1374.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/imK2.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="297.0" layoutY="1475.0" text="Проверка">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="275.0" layoutY="1502.0" prefHeight="78.0" prefWidth="132.0" text="По двум документам, всего за один час" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="103.0" fitWidth="118.0" layoutX="455.0" layoutY="1372.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/imK3.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="440.0" layoutY="1473.0" text="Выйти на линию">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="448.0" layoutY="1502.0" prefHeight="78.0" prefWidth="132.0" text="Все готово! вы можете приступать к работе" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Pane fx:id="pGlav" layoutX="30.0" layoutY="29.0" prefHeight="492.0" prefWidth="646.0" style="-fx-background-color: white; -fx-border-color: black;" visible="false">
+               <children>
+                  <Label layoutX="209.0" layoutY="14.0" text="Заполнение заявки">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tfFIO" layoutX="47.0" layoutY="134.0" prefHeight="32.0" prefWidth="160.0" promptText="ФИО" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                  <TextField fx:id="tfVoz" layoutX="47.0" layoutY="186.0" prefHeight="32.0" prefWidth="160.0" promptText="Возраст" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                  <TextField fx:id="tfSt" layoutX="47.0" layoutY="239.0" prefHeight="32.0" prefWidth="160.0" promptText="Стаж" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                  <TextField fx:id="tfNumSer" layoutX="47.0" layoutY="291.0" prefHeight="32.0" prefWidth="160.0" promptText="Номер и серия паспорта" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                  <TextField fx:id="tfMaN" layoutX="413.0" layoutY="134.0" prefHeight="32.0" prefWidth="183.0" promptText="Марка и название транспорта" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: black;" />
+                  <TextField fx:id="tfGosN" layoutX="413.0" layoutY="186.0" prefHeight="32.0" prefWidth="183.0" promptText="Госномер транспорта" style="-fx-border-color: black; -fx-background-radius: 5; -fx-border-radius: 5;" />
+                  <Button fx:id="btnBack" layoutX="48.0" layoutY="427.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="65.0" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-background-color: black;" text="Назад" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnOtprZ" layoutX="147.0" layoutY="427.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="94.0" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-background-color: black;" text="Отправить" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="wtext" layoutX="80.0" layoutY="380.0" />
+                  <TextField fx:id="numtf" layoutX="47.0" layoutY="337.0" prefHeight="32.0" prefWidth="160.0" promptText="Номер телефона" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+               </children></Pane>
+            <Button fx:id="btnAuth" layoutX="554.0" layoutY="1603.0" mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: black; -fx-background-radius: 5; -fx-border-radius: 5;" text="Авторизация" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

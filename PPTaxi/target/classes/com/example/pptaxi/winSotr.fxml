@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="533.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pptaxi.WinSotrContr">
+   <children>
+      <TableView fx:id="tableSpVod" layoutX="9.0" layoutY="51.0" prefHeight="429.0" prefWidth="757.0">
+        <columns>
+          <TableColumn fx:id="CodeID" prefWidth="34.0" text="№" />
+          <TableColumn fx:id="TbFIO" minWidth="0.0" prefWidth="186.0" text="ФИО" />
+            <TableColumn fx:id="TbVoz" minWidth="0.0" prefWidth="94.0" text="Возраст" />
+            <TableColumn fx:id="TbNS" prefWidth="122.0" text="Номер и серия паспорта" />
+            <TableColumn fx:id="TbMN" prefWidth="179.0" text="Марка и название транспорта" />
+            <TableColumn fx:id="TbGosN" prefWidth="34.0" text="Госномер транспорта" />
+            <TableColumn fx:id="TbNum" minWidth="9.0" prefWidth="63.0" text="Номер телефона" />
+            <TableColumn fx:id="TbSt" prefWidth="44.0" text="Водительский стаж" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnDel" layoutX="678.0" layoutY="490.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="81.0" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: black; -fx-background-color: black;" text="Удалить" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnIzm" layoutX="570.0" layoutY="490.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="92.0" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: black; -fx-background-color: black;" text="Изменить" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAdd" layoutX="461.0" layoutY="490.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="92.0" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: black; -fx-background-color: black;" text="Добавить" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBack" layoutX="14.0" layoutY="490.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="92.0" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: black; -fx-background-color: black;" text="Назад" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="279.0" layoutY="14.0" text="Список водителей">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Pane fx:id="pAddVod" layoutX="150.0" layoutY="90.0" prefHeight="298.0" prefWidth="477.0" style="-fx-background-color: white; -fx-border-color: black;" visible="false">
+         <children>
+            <Label layoutX="159.0" layoutY="1.0" text="Добавить водителя">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfFIOSp" layoutX="14.0" layoutY="53.0" promptText="ФИО" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <TextField fx:id="tfVozSp" layoutX="14.0" layoutY="96.0" promptText="Возраст" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <TextField fx:id="tfNumSerSp" layoutX="14.0" layoutY="143.0" promptText="Номер и серия паспорта" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <TextField fx:id="tfMNSp" layoutX="199.0" layoutY="96.0" promptText="Марка и название транспорта" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <TextField fx:id="tfGosSp" layoutX="199.0" layoutY="143.0" promptText="Госномер транспорта" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <Button fx:id="btnSave" layoutX="119.0" layoutY="257.0" mnemonicParsing="false" style="-fx-background-color: black; -fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: black;" text="Сохранить" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnOtm" layoutX="14.0" layoutY="257.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" style="-fx-background-color: black; -fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: black;" text="Отмена" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="wtext" layoutX="80.0" layoutY="212.0" />
+            <TextField fx:id="tfNumSp" layoutX="14.0" layoutY="185.0" promptText="Номер телефона" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <TextField fx:id="tfStSp" layoutX="199.0" layoutY="53.0" promptText="Водительский стаж" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+         </children>
+      </Pane>
+      <Pane fx:id="pIzmVod" layoutX="160.0" layoutY="100.0" prefHeight="298.0" prefWidth="477.0" style="-fx-background-color: white; -fx-border-color: black;" visible="false">
+         <children>
+            <Label layoutX="115.0" layoutY="1.0" text="Изменить данные водителя">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfFIOizm" layoutX="14.0" layoutY="53.0" promptText="ФИО" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <TextField fx:id="tfVozizm" layoutX="14.0" layoutY="96.0" promptText="Возраст" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <TextField fx:id="tfNumSerizm" layoutX="14.0" layoutY="143.0" promptText="Номер и серия паспорта" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <TextField fx:id="tfMNizm" layoutX="199.0" layoutY="96.0" promptText="Марка и название транспорта" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <TextField fx:id="tfGosizm" layoutX="199.0" layoutY="143.0" promptText="Госномер транспорта" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <Button fx:id="btnSaveizm" layoutX="119.0" layoutY="257.0" mnemonicParsing="false" style="-fx-background-color: black; -fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: black;" text="Сохранить" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnOtmizm" layoutX="14.0" layoutY="257.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" style="-fx-background-color: black; -fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: black;" text="Отмена" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField fx:id="tfNumizm" layoutX="14.0" layoutY="187.0" promptText="Номер телефона" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+            <TextField fx:id="tfStizm" layoutX="199.0" layoutY="53.0" promptText="Водительский стаж" style="-fx-border-color: black; -fx-border-radius: 5; -fx-background-radius: 5;" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
